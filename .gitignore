@@ -1,4 +1,5 @@
 *.class
 *ds_store
 .settings
-
+.metadata
+.project
