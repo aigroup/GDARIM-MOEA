@@ -1,0 +1,8 @@
+package moea;
+
+public enum TipoDominancia {
+	INDIVIDUO_DOMINA,
+    INDIVIDUO_DOMINADO,
+    NO_DOMINADOS_DISTINTOS_HIPER_BOX,
+    NO_DOMINADOS_MISMO_HIPER_BOX,   	
+}

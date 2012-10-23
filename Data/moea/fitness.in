@@ -1,0 +1,30 @@
+#Basicamente el archivo muestra claves que no pueden duplicarse
+#	Cada elemento del string de 23 caracteres muestra todos los campos que representan
+#	  una clave que no puede duplicarse.
+##########################################################################################
+*idAula=0
+*idDoc=1
+*idSed=2
+*idMat=3
+*idFac=4
+*idCar=5
+*idTA=6
+*idTur=7
+*idPla=8
+*idDia=9
+*idEst=10
+*idRec=11
+#$: Valor maximo
+#Restricciones
+# RelDocente: Docentes asignados a materias que no dictan
+>1>RelDocente=idDoc,idMat:9999999;idMat
+# RelDocente: Docentes asignados a dias y horarios no disponibles
+>1>RelDocente=idDoc,idDia,idTur:9999999;idDoc
+# RelMaterias: Materia asignada a Tipo de Aula no compatible.
+>1>RelMateria=idMat,idTA:9999999;idTA
+#>1>RelDocente=idDoc,idDia,idTur:9999999;DUPLICIDAD
+#Penalizacion
+#  1: Aulas: materia que no tengan los recursos necesarios
+#  2: Docentes: Docente con horarios libres
+>0>RelMateria=idmat,idRec:100
+>1>RelDocente=idDoc,idTur:500

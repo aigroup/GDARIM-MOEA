@@ -1,0 +1,229 @@
+#Este archivo contiene la informacion de entrada leida con la cual se realizó el procesamiento.
+#Tamaño de la poblacion(debe ser >1)
+#          popsize
+@tamPoblacion=10
+#......................
+#Cantidad de funciones de evaluacion (debe ser mayor o igual al tamaño de la poblacion.
+#             neval
+@numFEval=12
+#......................
+#Cantidad de objetivos (debe ser >1)
+#              nobj
+@cantObjetivos=2
+#......................
+#valor de epsilon para cada funcion objetivo:
+#--------------------------------------------
+#     A continuacion se debe incorporar un epsilon por cada uno de los "cantObjetivos".
+#     Este valor declara la toleracia mínima del objetivo
+#     (double >0.0)
+#     Si cantObjetivos=2  debe introducir dos renglones de epsilon
+#     entonces el primer renglon declarará el epsilon para el primer objetivo y el segundo 
+#     declarará el valor epsilon del segundo objetivo
+#		epsilon[i]
+@epsilon1=0.11
+@epsilon2=0.15
+#
+#......................
+#valor minimo para cada funcion objetivo:
+#--------------------------------------------
+#     A continuacion se debe incorporar un valor minimo por cada uno de los "cantObjetivos".
+#     Este valor declara un valor monimo del objetivo
+#     (si no conoce el valor ingrese 0.0)
+#     Si cantObjetivos=2  debe introducir dos renglones de minValor
+#     entonces el primer renglon declarará el minValor para el primer objetivo y el segundo 
+#     declarará el minValor del segundo objetivo
+#		min_obj[i]
+@minValor1=0.0
+@minValor2=0.0
+#
+#......................
+#Cantidad de restricciones (debe ser >=0)
+#		ncon
+@cantRestricciones=0
+#......................
+#Cantidad de variables reales (debe ser >=0)
+#		nreal
+#@cantVarReales=0
+#
+#......................
+#valor minimo para cada variable real:
+#-------------------------------------
+#     A continuacion se debe incorporar un valor minimo por cada una de las variables reales.
+#     Este valor declara un valor minimo de la variable real
+#     (sin restricciones)
+#     Si CantVarReales=0 no debe introducir renglones de minValReal
+#     Si CantVarReales=2 debe introducir 2 renglones de minValReal
+#     entonces el primer renglon declarará el minValReal para la primer variable real y el segundo 
+#     declarará el minValReal de la variable real
+#		min_realvar [i]
+#@minValReal1=0.0
+#
+#......................
+#valor maximo para cada variable real:
+#-------------------------------------
+#     A continuacion se debe incorporar un valor maximo por cada una de las variables reales.
+#     Este valor declara un valor maximo de la variable real
+#     (sin restricciones)
+#     Si CantVarReal=0 no debe introducir renglones de maxValReal
+#     Si CantVarReal=2 debe introducir 2 renglones de maxValReal
+#     entonces el primer renglon declarará el maxValRealpara la primer variable real y el segundo 
+#     declarará el maxValRealde la variable real
+#		max_realvar  [i]
+#@maxValReal1=0.4
+#@maxValReal2=0.4
+#
+#......................
+#Probabilidad de cruza de las variables reales (valores [0.0 : 1.0] )
+#		pcross_real
+#@probCruzaVarReales=0.3
+#......................
+#
+#probabilidad de mutacion de las variables reales (valores [0.0 : 1.0] )
+#		pmut_real
+#@probMutacionVarReales=0.3
+#......................
+#Probabilidad de mutacion de las variables reales (valores [0.0 : 1.0] )
+#		pmut_real
+#@probMutacionVarReales=0.3
+#......................
+#Indice de distribución de variable real SBX para cruza (valores [5 : 20]) 
+# OJO EL SW esta validando sólo si es <=0 tira error
+#		eta_c
+@etaCruza=5.0
+#......................
+#Indice de distribución de variable polinomial para mutacion (valores [5 : 50]) 
+# OJO EL SW esta validando sólo si es <=0 tira error
+#		eta_m
+@etaMutacion=5.0
+#......................
+#Cantidad de variables binarias (>=0) 
+#		nbin
+@cantVarBinarias=21
+#
+#......................
+#cantidad de bits para cada variable binaria:
+#--------------------------------------------
+#     A continuacion se debe incorporar la cantidad de bits por cada una de las variables binarias
+#     Este valor declara la cantidad de bits con la que se codifica la variable binaria
+#		(en general podría ser un entero int : 4 x 8 =32 bits)
+#     Si cantVarBinarias=0 no debe introducir renglones de cantBits
+#     Si cantVarBinarias=2 debe introducir 2 renglones de cantBits
+#     entonces el primer renglon declarará el cantBits para la primer variable binaria y el segundo 
+#     declarará el cantBits de la segunda variable binaria
+#		nbits   [i]
+@cantBits1=32
+@cantBits2=32
+@cantBits3=32
+@cantBits4=32
+@cantBits5=32
+@cantBits6=32
+@cantBits7=32
+@cantBits8=32
+@cantBits9=32
+@cantBits10=32
+@cantBits11=32
+@cantBits12=32
+@cantBits13=32
+@cantBits14=32
+@cantBits15=32
+@cantBits16=32
+@cantBits17=32
+@cantBits18=32
+@cantBits19=32
+@cantBits20=32
+@cantBits21=32
+#......................
+#valor minimo para cada variable binaria:
+#----------------------------------------
+#     A continuacion se debe incorporar un valor minimo por cada una de las variables binarias.
+#     Este valor declara un valor minimo de la variable binaria.
+#     (sin restricciones)
+#     Si cantVarBinarias=0 no debe introducir renglones de minValBinaria
+#     Si cantVarBinarias=2 debe introducir 2 renglones de minValBinaria
+#     entonces el primer renglon declarará el minValBinaria para la primer variable binaria y el segundo 
+#     declarará el minValBinaria de la segunda variable binaria.
+#		min_binvar [i]
+@minValBinaria1=0.0
+@minValBinaria2=0.0
+@minValBinaria3=0.0
+@minValBinaria4=0.0
+@minValBinaria5=0.0
+@minValBinaria6=0.0
+@minValBinaria7=0.0
+@minValBinaria8=0.0
+@minValBinaria9=0.0
+@minValBinaria10=0.0
+@minValBinaria11=0.0
+@minValBinaria12=0.0
+@minValBinaria13=0.0
+@minValBinaria14=0.0
+@minValBinaria15=0.0
+@minValBinaria16=0.0
+@minValBinaria17=0.0
+@minValBinaria18=0.0
+@minValBinaria19=0.0
+@minValBinaria20=0.0
+@minValBinaria21=0.0
+#
+#......................
+#valor maximo para cada variable binaria:
+#----------------------------------------
+#     A continuacion se debe incorporar un valor maximo por cada una de las variables binarias.
+#     Este valor declara un valor maximo de la variable binaria.
+#     (sin restricciones)
+#     Si cantVarBinarias=0 no debe introducir renglones de maxValBinaria
+#     Si cantVarBinarias=2 debe introducir 2 renglones de maxValBinaria
+#     entonces el primer renglon declarará el maxValBinaria para la primer variable binaria y el segundo 
+#     declarará el maxValBinaria de la segunda variable binaria.
+#		max_binvar  [i]
+@maxValBinaria1=0.1
+@maxValBinaria2=0.1
+@maxValBinaria3=0.1
+@maxValBinaria4=0.1
+@maxValBinaria5=0.1
+@maxValBinaria6=0.1
+@maxValBinaria7=0.1
+@maxValBinaria8=0.1
+@maxValBinaria9=0.1
+@maxValBinaria10=0.1
+@maxValBinaria11=0.1
+@maxValBinaria12=0.1
+@maxValBinaria13=0.1
+@maxValBinaria14=0.1
+@maxValBinaria15=0.1
+@maxValBinaria16=0.1
+@maxValBinaria17=0.1
+@maxValBinaria18=0.1
+@maxValBinaria19=0.1
+@maxValBinaria20=0.1
+@maxValBinaria21=0.1
+#......................
+#
+#Probabilidad de cruza de las variables binarias(valores [0.6 : 1.0] )
+#		pcross_bin
+@probCruzaVarBinarias=0.6
+#......................
+#Probabilidad de mutacion de las variables binarias(valores [0.0 : 1.0], en general = 1/nbits )
+#		pmut_bin
+@probMutacionVarBinarias=0.03125
+#......................
+#Umbral de distancia en mismo hiperbox (valores [0.0 : 10000.0], en general = 500.0 )
+#		umbralMismoHBox
+@umbralMismoHBox=500.0
+#......................
+#Umbral de distancia minima (valores [0.0 : 100.0], en general = 10.0 )
+#		umbralDistancia
+@umbralDistancia=10.0
+#......................
+#Umbral de distancia minima de fitness (valores [0.0 : 100.0], en general = 10.0 )
+#		umbralDistFitness
+@umbralDistFitness=10.0
+#......................
+#Cantidad de turnos por aula (valores [1 : 5], en general = 3 )
+#		cantTurnos
+@cantTurnos=3
+#......................
+#Indice de restricciones de estabilizacion de poblacion (valores [1 : 1000], en general = 100 )
+#		indRestric
+@indRestric=0
+#......................

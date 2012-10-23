@@ -1,0 +1,195 @@
+
+<docente>
+<apellido>yuuyt</apellido>
+<nombre>hghfh</nombre>
+<dni>uytuty</dni>
+<legajo>yuytuyt</legajo>
+<facultad>Turismo y Hotelería</facultad>
+<materiasasignadas>
+Laboratorio
+</materiasasignadas>
+<horariosdisponibles>
+</horariosdisponibles>
+</docente>
+
+<aula>
+<aulaid>
+45
+</aulaid>
+<sede>
+545
+</sede>
+<capacidad>
+65
+</capacidad>
+<tipoaula>Común</tipoaula>
+<recursos>
+TV
+
+</recursos>
+</aula>
+
+<aula>
+<aulaid>
+1
+</aulaid>
+<sede>
+Soler 3666
+</sede>
+<capacidad>
+21
+</capacidad>
+<tipoaula>Común</tipoaula>
+<recursos>
+Escritorio
+
+</recursos>
+</aula>
+
+
+<docente>
+<apellido>334354</apellido>
+<nombre>3434</nombre>
+<dni>65656</dni>
+<legajo>4343</legajo>
+<facultad>Arquitectura</facultad>
+<materiasasignadas>
+Laboratorio
+</materiasasignadas>
+<horariosdisponibles>
+</horariosdisponibles>
+</docente>
+
+<aula>
+<aulaid>
+54
+</aulaid>
+<sede>
+54
+</sede>
+<capacidad>
+54
+</capacidad>
+<tipoaula>Laboratorio</tipoaula>
+<recursos>
+TV
+
+</recursos>
+</aula>
+
+<aula>
+<aulaid>
+43
+</aulaid>
+<sede>
+43
+</sede>
+<capacidad>
+54
+</capacidad>
+<tipoaula>Común</tipoaula>
+<recursos>
+TV
+
+</recursos>
+</aula>
+
+<aula>
+<aulaid>
+45
+</aulaid>
+<sede>
+87
+</sede>
+<capacidad>
+45
+</capacidad>
+<tipoaula>Común</tipoaula>
+<recursos>
+Ventilación
+
+</recursos>
+</aula>
+
+
+<docente>
+<apellido>pepito</apellido>
+<nombre>pepe</nombre>
+<dni>324</dni>
+<legajo>82734</legajo>
+<facultad>Ciencias Económicas</facultad>
+<materiasasignadas>
+Laboratorio
+</materiasasignadas>
+<horariosdisponibles>
+</horariosdisponibles>
+</docente>
+
+
+<docente>
+<apellido>pepito</apellido>
+<nombre>pepe</nombre>
+<dni>4343</dni>
+<legajo>323234</legajo>
+<facultad>Arquitectura</facultad>
+<materiasasignadas>
+Laboratorio II
+Laboratorio III
+Administración de Proyectos
+</materiasasignadas>
+<horariosdisponibles>
+</horariosdisponibles>
+</docente>
+
+
+<docente>
+<apellido>uyuyt</apellido>
+<nombre>uyuy</nombre>
+<dni>5665</dni>
+<legajo>65654</legajo>
+<facultad>Educación</facultad>
+<materiasasignadas>
+Laboratorio II
+Laboratorio IV
+</materiasasignadas>
+<horariosdisponibles>
+</horariosdisponibles>
+</docente>
+
+
+ apellido: dfgfd nombre: trtre dni: 454354 legajo: 876876 facultad: Arquitectura materiasasignadas: Laboratorio I
+Laboratorio III
+ horariosdisponibles: 
+
+
+
+ apellido: 54 nombre: eree dni: 45345 legajo: 4543534 facultad: Diseño y Comunicación materiasasignadas: Laboratorio I
+Laboratorio III
+ horariosdisponibles: 
+
+
+ apellido: sfdsfsd| nombre: dfdsf| dni: 22222| legajo: 17| facultad: Ingeniería| materiasasignadas: Laboratorio II
+Inteligencia Artificial I
+| Horarios Disponibles: 
+ apellido: dasdasd| nombre: wsdasd| dni: 222| legajo: 17| facultad: Ingeniería| materiasasignadas: Laboratorio III
+Laboratorio IV
+| Horarios Disponibles: 
+ apellido: adasd| nombre: sadad| dni: 12222| legajo: 18| facultad: Ingeniería| materiasasignadas: Laboratorio III
+Redes neuronales
+| Horarios Disponibles: 
+ apellido: Simpons| nombre: Homero| dni: 4333555| legajo: 5| materiasasignadas: Mercados
+Astonomia
+
+ apellido: aa| nombre: aa| dni: 22222222| legajo: 5| materiasasignadas: Astonomia
+Buloneria
+
+ apellido: dddddd| nombre: eeeeee| dni: 424234234| legajo: 6| materiasasignadas: Astonomia
+Buloneria
+
+ apellido: grillo| nombre: pepe| dni: 29898| legajo: 7| materiasasignadas: Buloneria
+Astonomia
+
+ apellido: juan | nombre: perez| dni: 29389898| legajo: 8| materiasasignadas: Mercados
+Buloneria
+Astonomia
+

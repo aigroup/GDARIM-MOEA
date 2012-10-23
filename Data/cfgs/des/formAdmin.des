@@ -1,0 +1,56 @@
+<plan>
+<facultad>javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]</facultad>
+<plan>657</plan>
+<idplan>6756</idplan>
+<carrera>Licenciatura en Informática<carrera>
+</plan>
+<plan>
+<facultad>javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]</facultad>
+<plan>8787</plan>
+<idplan>787</idplan>
+<carrera>Licenciatura en Sistemas y Gestión<carrera>
+</plan>
+<plan>
+<facultad>javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]</facultad>
+<plan>566</plan>
+<idplan>6565</idplan>
+<carrera>Ingeniería en Informática<carrera>
+</plan>
+<plan>
+<facultad>javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]</facultad>
+<plan>y657</plan>
+<idplan>767</idplan>
+<carrera>Licenciatura en Informática<carrera>
+</plan>
+<plan>
+<facultad>javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]</facultad>
+<plan>676</plan>
+<idplan>767</idplan>
+<carrera>Licenciatura en Informática<carrera>
+</plan>
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: 767idplan: 675carrera: Licenciatura en Informáticamaterias: [Laboratorio III]
+
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: 5645idplan: 7676carrera: Licenciatura en Sistemas y Gestiónmaterias: [Laboratorio IV, Administración de Proyectos]
+
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: 7685idplan: 65765carrera: Licenciatura en Sistemas y Gestiónmaterias: [Administración de Proyectos]
+
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: 4454idplan: 54534carrera: Licenciatura en Sistemas y Gestiónmaterias: [Laboratorio II, Laboratorio IV, Análisis Matemático I]
+
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: 4543idplan: 543543carrera: Licenciatura en Informáticamaterias: [Laboratorio I, Laboratorio III, Administración de Proyectos]
+
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: tytidplan: 565carrera: Licenciatura en Informáticamaterias: [Laboratorio II]
+
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: 34idplan: 3432carrera: Licenciatura en Informáticamaterias: [Laboratorio I]
+
+facultad: javax.swing.JPanel[,5,5,700x80,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=700,height=80]]plan: 534idplan: 43534carrera: Licenciatura en Sistemas y Gestiónmaterias: [Laboratorio II]
+
+facultad: Arquitecturaplan: 56465idplan: 56645carrera: Licenciatura en Informáticamaterias: [Laboratorio IV]
+
+facultad: Graduate School of Business plan: 54 idplan: 455 carrera: Licenciatura en Sistemas y Gestión materias: [Laboratorio II]
+
+facultad: Arquitectura plan: 454 idplan: 534534 carrera: Licenciatura en Sistemas y Gestión materias: [Laboratorio III, Laboratorio IV]
+
+facultad: Graduate School of Business plan: 323 idplan: 2332 carrera: Licenciatura en Sistemas y Gestión materias: [Laboratorio II]
+
+facultad: Ciencias Económicas plan: 32 idplan: 123 carrera: Licenciatura en Informática materias: [Laboratorio I]
+

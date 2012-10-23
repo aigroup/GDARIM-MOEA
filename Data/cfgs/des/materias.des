@@ -1,0 +1,79 @@
+
+<materia>
+<materiaid>
+6565
+</materiaid>
+<descmateria>
+laboratorio X
+</descmateria>
+<cupomax>
+23
+</cupomax>
+<cupoprobable>
+16
+</cupoprobable>
+<sedepreferida>
+1
+</sedepreferida>
+<recurso>
+Escritorio
+</recurso>
+</materia>
+
+<materia>
+<materiaid>
+32
+</materiaid>
+<descmateria>
+hola
+</descmateria>
+<cupomax>
+23
+</cupomax>
+<cupoprobable>
+43
+</cupoprobable>
+<sedepreferida>
+434
+</sedepreferida>
+<recurso>
+Cañón
+</recurso>
+</materia>
+
+materiaid: 45 descmateria: 54 cupomax: 7656 cupoprobable: 645 sedepreferida: 5634 recurso: TV
+
+
+materiaid: 1 descmateria: Labo I cupomax: 50 cupo probable: 55 sede preferida: 1 recurso: PC
+
+
+materiaid: 2 descmateria: dd cupomax: 20 cupo probable: 20 sede preferida: 1 recurso: PC
+
+
+materiaid: 3 descmateria: 3 cupomax: 34 cupo probable: 34 sede preferida: 1 recurso: Proyector
+
+
+materiaid: 222 descmateria: 2221 cupomax: 23 cupo probable: 23 sede preferida: 222 recurso: Enchufe
+
+ descmateria: 111 cupomax: 1 cupo probable: 1 sede preferida: 1 recurso: Escritorio
+ descmateria: 1 cupomax: 1 cupo probable: 1 sede preferida: 1 recurso: Escritorio
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 2 recurso: Escritorio
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 2 recurso: Escritorio
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 2 recurso: Escritorio
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 2 recurso: Escritorio
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 2 recurso: Escritorio
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 1 recurso: Escritorio
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 1 recurso: Cañón
+ descmateria: LABO I cupomax: 24 cupo probable: 30 sede preferida: 1 recurso: TV
+ descmateria: Labo I cupomax: 24 cupo probable: 30 sede preferida: 1 recurso: Cañón
+ descmateria: Laboratorio I cupomax: 24 cupo probable: 80 sede preferida: 1 recurso: Pizarra
+ descmateria: Laboratorio I cupomax: 10 cupo probable: 100 sede preferida: 2 recurso: Escritorio
+ descmateria: Laboratorio I cupomax: 1 cupo probable: 1 sede preferida: 1 recurso: Escritorio
+ descmateria: fvvds cupomax: 22 cupo probable: 1 sede preferida: 11 recurso: Cañón
+ descmateria: laboratorio x cupomax: 32 cupo probable: 30 sede preferida: 2 recursos: Escritorio
+Cañon
+
+ descmateria: asdasd cupomax: 30 cupo probable: 10 sede preferida: 2 recursos: TV Plasma
+
+ descmateria: sdasdd cupomax: 10 cupo probable: 10 sede preferida: 2 recursos: Cañon
+

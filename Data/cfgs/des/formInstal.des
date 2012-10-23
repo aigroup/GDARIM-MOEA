@@ -1,0 +1,27 @@
+
+ aulaid: 56 sede: 6545 capacidad: 654 tipoaula: Auditorio recursos: Enchufe
+Pizarra
+
+
+
+ aulaid: 543 sede: trter capacidad: 345 tipoaula: Auditorio recursos: Cañón
+Enchufe
+Ventilación
+
+
+
+ aulaid: 1 sede: 1 capacidad: 25 tipoaula: Laboratorio recursos: Escritorio
+PC
+
+
+
+ aulaid: 2 sede: 1 capacidad: 35 tipoaula: Común recursos: Escritorio
+Pizarra
+
+
+ aulaid: 1 sede:  capacidad: 40 tipoaula: Laboratorio recursos: TV
+Ventilación
+
+ aulaid:  sede: 2 capacidad: 50 tipoaula: Laboratorio recursos: Escritorio
+TV
+

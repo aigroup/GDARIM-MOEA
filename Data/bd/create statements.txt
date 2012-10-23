@@ -1,0 +1,298 @@
+#C:\Documents and Settings\Paul\Desktop\workspace\Gdarim>sqlite3.exe test.db
+
+
+
+CREATE TABLE AulasTurnos (id smallint primary key, descripcion varchar(50),turno varchar(1), sede smallint,estado smallint ,tipo smallint,capacidad int);
+
+insert into AulasTurnos values ('1','Aula 1 Turno M','M','1','1','1','10');
+insert into AulasTurnos values ('2','Aula 1 Turno T','T','1','1','2','10');
+insert into AulasTurnos values ('3','Aula 1 Turno N','N','1','2','1','10');
+insert into AulasTurnos values ('4','Aula 2 Turno M','M','1','2','2','10');
+insert into AulasTurnos values ('5','Aula 2 Turno T','T','1','1','2','10');
+insert into AulasTurnos values ('6','Aula 2 Turno N','N','1','2','1','10');
+
+
+CREATE TABLE Docentes (id smallint primary key, nombre varchar(30),apellido varchar(30), dni int, legajo varchar(12));
+
+insert into Docentes values ('1','N/A','','','');
+insert into Docentes values ('2','Pepe','Luis','20002','2');
+insert into Docentes values ('3','Jose','Palermo','20003','3');
+insert into Docentes values ('4','Lago','Puelo','20004','4');
+insert into Docentes values ('5','Pablo','Cababie','20005','5');
+insert into Docentes values ('6','Facundo','Cancelo','20006','6');
+insert into Docentes values ('7','Diego','Maradona','20007','7');
+insert into Docentes values ('8','Chapulin','Colorado','20008','8');
+insert into Docentes values ('9','Homero','Simpsons','20009','9');
+insert into Docentes values ('10','Pedro','Almodovar','20010','10');
+insert into Docentes values ('11','Diga','Lo','20011','11');
+insert into Docentes values ('12','Palermo','Mia','20012','12');
+insert into Docentes values ('13','Juan','Quiroga ','20013','13');
+insert into Docentes values ('14','Rico','Lores','20014','14');
+insert into Docentes values ('15','Remes','Lenicov','20015','15');
+insert into Docentes values ('16','Roque','Fernandez','20016','16');
+insert into Docentes values ('17','Raton','Perez','20018','17');
+insert into Docentes values ('18','Oso','Yogui','20018','18');
+
+
+CREATE TABLE Sedes (id smallint primary key, descripcion varchar(50));
+
+insert into Sedes values ('1','N/A');
+insert into Sedes values ('2','Mario Bravo 1050 I');
+insert into Sedes values ('3','Cabrera 3507');
+
+
+CREATE TABLE Materias (id smallint primary key, descripcion varchar(50),cupoMax smallint,cupoProb smallint, sedePref smallint);
+
+
+insert into Materias values ('1','N/A','','','');
+insert into Materias values ('2','Laboratorio I','60','50','2');
+insert into Materias values ('3','Laboratorio II','60','50','2');
+insert into Materias values ('4','Laboratorio III','60','50','2');
+insert into Materias values ('5','Laboratorio IV','60','50','2');
+insert into Materias values ('6','Inteligencia Artificial I','60','50','2');
+insert into Materias values ('7','Algoritmos Geneticos','60','50','2');
+insert into Materias values ('8','Redes neuronales','60','50','2');
+insert into Materias values ('9','Comunicacion de Datos en Internet','60','50','2');
+insert into Materias values ('10','Administración de proyectos','60','50','2');
+insert into Materias values ('11','Análisis matemático','60','50','2');
+insert into Materias values ('12','Algebra','60','50','2');
+insert into Materias values ('13','Laboratorio I','60','50','2');
+insert into Materias values ('14','Laboratorio II','60','50','2');
+
+
+CREATE TABLE Facultades (id smallint primary key, descripcion varchar(50));
+
+insert into Facultades values ('1','N/A');
+insert into Facultades values ('2','Ingeniería');
+insert into Facultades values ('3','Diseño y Comunicación');
+insert into Facultades values ('4','Derecho');
+insert into Facultades values ('5','Turismo y Hotelería');
+insert into Facultades values ('6','Ciencias Sociales');
+insert into Facultades values ('7','Educación');
+insert into Facultades values ('8','Ciencias Económicas');
+insert into Facultades values ('9','Arquitectura');
+insert into Facultades values ('10','Graduate School of Business');
+insert into Facultades values ('11','Psicología');
+
+
+
+CREATE TABLE Carreras (id smallint primary key, descripcion varchar(50),facultad smallint);
+
+insert into Carreras values ('1','N/A’,’1’);
+insert into Carreras values ('2','Ingeniería en Informática’,’1’);
+insert into Carreras values ('3','Licenciatura en Informática’,’1’);
+insert into Carreras values ('4','Licenciatura en Sistemas y Gestión’,’1’);
+insert into Carreras values ('5','Licenciatura en Redes y Comunicación  
+de Datos’,’1’);
+insert into Carreras values ('6','Ingeniería Industrial’,’1’);
+insert into Carreras values ('7','Licenciatura en Producción  
+Industrial’,’1’);
+insert into Carreras values ('8','Lic. en Psicología’,’1’);
+insert into Carreras values ('9','Lic. en Preriodismo’,’1’);
+insert into Carreras values ('10','Periodismo Deportivo’,’1’);
+insert into Carreras values ('11','Lic. en Ciencia Política’,’1’);
+insert into Carreras values ('12','Lic. en Relaciones  
+Internacionales’,’1’);
+insert into Carreras values ('13','Lic. en Arte’,’1’);
+insert into Carreras values ('14','Lic. en Humanidades y Ciencias  
+Sociales’,’1’);
+insert into Carreras values ('15','Doctorado en Psicología’,’1’);
+insert into Carreras values ('16','Posgrados en Psicología’,’1’);
+insert into Carreras values ('17','Maestría en Psicología y Salud’,’1’);
+insert into Carreras values ('18','Doctorado en Psicología, Ph.D’,’1’);
+insert into Carreras values ('19','Cursos de Posgrado’,’1’);
+insert into Carreras values ('20','Contador Público’,’1’);
+insert into Carreras values ('21','Lic. en Administración’,’1’);
+insert into Carreras values ('22','Lic. en Marketing',’1’);
+insert into Carreras values ('23','Lic. en Comercio Internacional’,’1’);
+insert into Carreras values ('24','Lic. en Recursos Humanos’,’1’);
+insert into Carreras values ('25','Lic. en Management: Marketing’,’1’);
+insert into Carreras values ('26','Lic. en Management: Economía y  
+Finanzas’,’1’);
+insert into Carreras values ('27','Lic. en Management: Entretenimientos  
+y Medios’,’1’);
+insert into Carreras values ('28','MBA - Full time - 1 año’,’1’);
+insert into Carreras values ('29','MBA - Part time - 2 año’,’1’);
+insert into Carreras values ('30','MBA Summer’,’1’);
+insert into Carreras values ('31','MBA Weekend’,’1’);
+insert into Carreras values ('32','Master en Derecho y Empresas’,’1’);
+insert into Carreras values ('33','Programas ejecutivos’,’1’);
+insert into Carreras values ('34','Diseño gráfico’,’1’);
+insert into Carreras values ('35','Diseño de Modas’,’1’);
+insert into Carreras values ('36','Diseño Industrial’,’1’);
+insert into Carreras values ('37','Diseño de Imagen y Sonido’,’1’);
+insert into Carreras values ('38','Diseño de Interiores’,’1’);
+insert into Carreras values ('39','Diseño de Historietas’,’1’);
+insert into Carreras values ('40','Diseño de Espectáculos’,’1’);
+insert into Carreras values ('41','Diseño de Información’,’1’);
+insert into Carreras values ('42','Publicidad’,’1’);
+insert into Carreras values ('43','Relaciones Públicas’,’1’);
+insert into Carreras values ('44','Organización de Eventos’,’1’);
+insert into Carreras values ('45','Cine y TV’,’1’);
+insert into Carreras values ('46','Fotografía’,’1’);
+insert into Carreras values ('47','Licenciatura en Diseño’,’1’);
+insert into Carreras values ('48','Maestría en Diseño’,’1’);
+insert into Carreras values ('49','Licenciatura en Turismo’,’1’);
+insert into Carreras values ('50','Licenciatura en Hotelería’,’1’);
+insert into Carreras values ('51','Técnico Operador en Turismo  
+Cultural’,’1’);
+insert into Carreras values ('52','Guía de Museos’,’1’);
+insert into Carreras values ('53','Técnico Operador en Turismo  
+Aventura’,’1’);
+insert into Carreras values ('54','Guía Turístico de Argentina’,’1’);
+insert into Carreras values ('55','Management Gourmet’,’1’);
+insert into Carreras values ('56','Abogacía’,’1’);
+insert into Carreras values ('57','MD Master en Derecho Penal’,’1’);
+insert into Carreras values ('58','MD Master en Der. Constitucional y  
+Der. Humanos’,’1’);
+insert into Carreras values ('59','MD Master en Derecho y Dirección de  
+Empresas’,’1’);
+insert into Carreras values ('60','MD Master en Derecho  
+Administrativo’,’1’);
+insert into Carreras values ('61','Arquitectura’,’1’);
+
+
+
+CREATE TABLE  TipoAula (id smallint primary key, descripcion varchar(50));
+
+insert into TipoAula values ('1','N/A');
+insert into TipoAula values ('2','Laboratorio');
+insert into TipoAula values ('3','Común');
+insert into TipoAula values ('4','Auditorio');
+
+
+CREATE TABLE Horarios (id smallint primary key, descripcion varchar(50));
+
+insert into Horarios values ('1','N/A');
+insert into Horarios values ('2','Mañana');
+insert into Horarios values ('3','Tarde');
+insert into Horarios values ('4','Noche');
+
+
+CREATE TABLE Planes (id smallint primary key, descripcion varchar(50), id_carrera smallint);
+
+insert into Planes values ('1','N/A');
+insert into Planes values ('2','Ingeniería en Informática Plan I','0');
+insert into Planes values ('3','Ingeniería en Informática Plan II,'0');
+insert into Planes values ('4','Ingeniería en Informática Plan III,'0');
+insert into Planes values ('5','Licenciatura en Informática,'0');
+insert into Planes values ('6','Licenciatura en Sistemas y Gestión','0');
+insert into Planes values ('7','Licenciatura en Redes y Comunicación de Datos','0');
+insert into Planes values ('8','Ingeniería Industrial','0');
+insert into Planes values ('9','Licenciatura en Producción Industrial','0','0');
+insert into Planes values ('10','Lic. en Psicología','0');
+insert into Planes values ('11','Lic. en Preriodismo','0');
+insert into Planes values ('12','Periodismo Deportivo','0');
+insert into Planes values ('13','Lic. en Ciencia Política','0');
+insert into Planes values ('14','Lic. en Relaciones Internacionales','0');
+insert into Planes values ('15','Lic. en Arte','0');
+insert into Planes values ('16','Lic. en Humanidades y Ciencias Sociales','0');
+insert into Planes values ('17','Doctorado en Psicología','0');
+insert into Planes values ('18','Posgrados en Psicología','0');
+insert into Planes values ('19','Maestría en Psicología y Salud','0');
+insert into Planes values ('20','Doctorado en Psicología, Ph.D','0');
+insert into Planes values ('21','Cursos de Posgrado','0');
+insert into Planes values ('22','Contador Público','0');
+insert into Planes values ('23','Lic. en Administración','0');
+insert into Planes values ('24','Lic. en Marketing','0');
+insert into Planes values ('25','Lic. en Comercio Internacional','0');
+insert into Planes values ('26','Lic. en Recursos Humanos','0');
+insert into Planes values ('27','Lic. en Management: Marketing','0');
+insert into Planes values ('28','Lic. en Management: Economía y Finanzas','0');
+insert into Planes values ('29','Lic. en Management: Entretenimientos y Medios','0');
+insert into Planes values ('30','MBA - Full time - 1 año','0');
+insert into Planes values ('31','MBA - Part time - 2 año','0');
+insert into Planes values ('32','MBA Summer','0');
+insert into Planes values ('33','MBA Weekend','0');
+insert into Planes values ('34','Master en Derecho y Empresas','0');
+insert into Planes values ('35','Programas ejecutivos','0');
+insert into Planes values ('36','Diseño gráfico','0');
+insert into Planes values ('37','Diseño de Modas','0');
+insert into Planes values ('38','Diseño Industrial','0');
+insert into Planes values ('39','Diseño de Imagen y Sonido','0');
+insert into Planes values ('40','Diseño de Interiores','0');
+insert into Planes values ('41','Diseño de Historietas','0');
+insert into Planes values ('42','Diseño de Espectáculos','0');
+insert into Planes values ('43','Diseño de Información','0');
+insert into Planes values ('44','Publicidad','0');
+insert into Planes values ('45','Relaciones Públicas','0');
+insert into Planes values ('46','Organización de Eventos','0');
+insert into Planes values ('47','Cine y TV','0');
+insert into Planes values ('48','Fotografía','0');
+insert into Planes values ('49','Licenciatura en Diseño','0');
+insert into Planes values ('50','Maestría en Diseño','0');
+insert into Planes values ('51','Licenciatura en Turismo','0');
+insert into Planes values ('52','Licenciatura en Hotelería','0');
+insert into Planes values ('53','Técnico Operador en Turismo Cultural','0');
+insert into Planes values ('54','Guía de Museos','0');
+insert into Planes values ('55','Técnico Operador en Turismo Aventura','0');
+insert into Planes values ('56','Guía Turístico de Argentina','0');
+insert into Planes values ('57','Management Gourmet','0');
+insert into Planes values ('58','Abogacía','0');
+insert into Planes values ('59','MD Master en Derecho Penal','0');
+insert into Planes values ('60','MD Master en Der. Constitucional y Der. Humanos','0');
+insert into Planes values ('61','MD Master en Derecho y Dirección de Empresas','0');
+insert into Planes values ('62','MD Master en Derecho Administrativo','0');
+insert into Planes values ('63','Arquitectura','0');
+
+
+
+CREATE TABLE Dias (id smallint primary key, descripcion varchar(50));
+
+insert into Dias values ('1','N/A');
+insert into Dias values ('2','Lunes');
+insert into Dias values ('3','Martes');
+insert into Dias values ('4','Miércoles');
+insert into Dias values ('5','Jueves');
+insert into Dias values ('6','Viernes');
+insert into Dias values ('7','Sábado');
+insert into Dias values ('8','Domingo');
+
+
+CREATE TABLE Estado (id smallint primary key, descripcion varchar(50));
+
+insert into Estado values ('1','N/A');
+insert into Estado values ('2','Usada');
+insert into Estado values ('3','Cerrada');
+
+CREATE TABLE Recursos (id smallint primary key, descripcion varchar(20),cantidad smallint);
+
+insert into Recursos values ('1','N/A’,’10’);
+insert into Recursos values ('2','Escritorio’,’10’);
+insert into Recursos values ('3','Cañón’,’10’);
+insert into Recursos values ('4','TV Plasma’,’10’);
+insert into Recursos values ('5','Enchufe’,’10’);
+insert into Recursos values ('6','Ventilación’,’10’);
+insert into Recursos values ('7','Pizarra’,’10’);
+insert into Recursos values ('8','Pantalla’,’10’);
+insert into Recursos values ('9','Proyector de filiminas’,’10’);
+insert into Recursos values ('10','PC (Hardware)’,’10’);
+insert into Recursos values ('11','SW (Oracle)’,’10’);
+insert into Recursos values ('12','SW (Java)’,’10’);
+insert into Recursos values ('13','Compilador’,’10’);
+insert into Recursos values ('14','Otro SW’,’10’);
+insert into Recursos values ('15','Fibra’,’10’);
+insert into Recursos values ('16','Tiza’,’10’);
+insert into Recursos values ('17','silla’,’10’);
+insert into Recursos values ('18','proyrctor’,’10’);
+insert into Recursos values ('19','luz’,’10’);
+insert into Recursos values ('1','N/A’,’10’);
+insert into Recursos values ('2','Escritorio’,’10’);
+insert into Recursos values ('3','Cañón’,’10’);
+insert into Recursos values ('4','TV Plasma’,’10’);
+insert into Recursos values ('5','Enchufe’,’10’);
+insert into Recursos values ('6','Ventilación’,’10’);
+insert into Recursos values ('7','Pizarra’,’10’);
+insert into Recursos values ('8','Pantalla’,’10’);
+insert into Recursos values ('9','Proyector de filiminas’,’10’);
+insert into Recursos values ('10','PC (Hardware)’,’10’);
+insert into Recursos values ('11','SW (Oracle)’,’10’);
+insert into Recursos values ('12','SW (Java)’,’10’);
+insert into Recursos values ('13','Compilador’,’10’);
+insert into Recursos values ('14','Otro SW’,’10’);
+insert into Recursos values ('15','Fibra’,’10’);
+insert into Recursos values ('16','Tiza’,’10’);
+insert into Recursos values ('17','silla’,’10’);
+insert into Recursos values ('18','proyrctor’,’10’);
+insert into Recursos values ('19','luz’,’10’);
+

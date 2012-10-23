@@ -1,0 +1,18 @@
+#Basicamente el archivo muestra claves que no pueden duplicarse
+#	Cada elemento del string de 23 caracteres muestra todos los campos que representan
+#	  una clave que no puede duplicarse.
+##########################################################################################
+#D: Evaluacion de duplicados
+#F: Evaluacion contra formulario
+#Aulas unicas
+@D=10000000000000000000000
+#........................
+#Profesor para un horario (hay que agregar el turno dentro del gen, ej.: 6)
+@D=01000001000000000000000
+#........................
+#Profesor habilitado para el horario
+@F=01000001000000000000000
+#........................
+#Profesor habilitado para la materia
+@F=01010000000000000000000
+#........................
