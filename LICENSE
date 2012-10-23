@@ -1,0 +1,51 @@
+AIGroup Software License 
+v1.0.3
+
+License term and conditions
+
+By installing, copying, or otherwise using the _________ software (the “Software”), you agree to be bound by the terms of this license agreement. If you do not agree, do not install, copy, or use the Software. The Software is protected by copyright and other intellectual property laws and is licensed, not sold nor transferred.
+
+Terms and conditions:
+
+1. You may use, copy, reproduce, and distribute this Software for any non-commercial academic purpose, subject to the restrictions provided in this license. Some purposes which can be non-commercial academic are teaching, academic research, and personal experimentation. You may also distribute this Software with books or other teaching materials, or publish the Software on websites, that are intended to teach the use of the Software for academic or other non-commercial purposes. 
+
+Notwithstanding anything to the contrary herein, you may only use the tools included in the Software to build the Singularity system, or build applications that will run on Singularity.
+
+2. You may not use or distribute this Software or any derivative works in any form for commercial purposes. Examples of commercial purposes would be running business operations, licensing, leasing, selling or reselling the Software, distributing the Software for use with commercial products, using the Software in the creation or use of commercial products or any other activity which purpose is to procure a commercial gain to you or others.
+
+3. You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy.  This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it in writing.
+
+4. If the work has interactive user interfaces, each must display the appropriate legal notices of this license agreement;  a README LEGAL NOTICE.txt with the provisions of this agreement, must be included.
+
+5. If you have created derivative works of the Software, and distribute such derivative works, you will cause the modified files to carry prominent notices so that recipients know that they are not receiving the original Software. Such notices must state: (i) the information about the authors of this Software, that you have changed the Software; and (ii) the date and detail of any changes.
+
+6. You will not remove any copyright or other notices from the Software. This agreement shall not be construed as a source of implied warranties nor transmission of any rights.
+
+7. If any of the Software is in binary format, you will not attempt to modify such portions of the Software, or to reverse engineer or decompile them, except and only if Software authors have issued previous written consent.
+
+8. You will not: (i) use the Software or any component of the Software or any program, code, application or technology created through use of the Software (for example, an application or program compiled using the included compilers) in a live operating environment where it may be relied upon to perform in the same manner as a commercially released product, or with data that has not been sufficiently backed up. By using the licensed software you acknowledge that Software is experimental and might cause damages or loss of data or information, to you or third parties. Software use is at your own risk and cost. Therefore, you WAIVE, TO THE FULLEST EXTENT PERMITTED BY LAW, TO CLAIM FOR SUCH LOSS OF DATA, INFORMATION, DAMAGES, OR TO FILL ANY OTHER CLAIM AGAINST SOFWARE AUTHORS AND/OR DISTRIBUTORS. Section 14 will also apply.
+
+9. All rights granted under this License are granted for the term of copyright on the Software.  This License explicitly affirms your unlimited permission to run the unmodified Software.  The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work.  This License acknowledges your rights of fair use or other equivalent, as provided by copyright law. Authors may revoke, at its sole discretion and at any times, rights granted by this License agreement, including without limitations your right to use the Software.
+
+10. You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.  You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright.  Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you.
+
+11. Conveying under any other circumstances is permitted solely under the conditions stated below.  Sublicensing is not allowed.
+
+12. You may convey verbatim copies of the Software's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.
+
+13. Disclaimer of Warranty: THAT THE SOFTWARE COMES "AS IS", WITH NO WARRANTIES. THIS MEANS NO EXPRESS, IMPLIED OR STATUTORY WARRANTY, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ANY WARRANTY AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE SOFTWARE OR ANY WARRANTY OF TITLE OR NON-INFRINGEMENT. THERE IS NO WARRANTY THAT THIS SOFTWARE WILL FULFILL ANY OF YOUR PARTICULAR PURPOSES OR NEEDS. ALSO, YOU MUST PASS THIS DISCLAIMER ON WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE WORKS.
+
+14. THAT NEITHER THE FACULTAD INGENIERIA, UNIVERSIDAD DE PALERMO, NOR ANY CONTRIBUTOR TO THE SOFTWARE WILL BE LIABLE FOR ANY DAMAGES RELATED TO THE SOFTWARE OR THIS LICENSE, INCLUDING DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL DAMAGES, TO THE MAXIMUM EXTENT THE LAW PERMITS, NO MATTER WHAT LEGAL THEORY IT IS BASED ON. ALSO, YOU MUST PASS THIS LIMITATION OF LIABILITY ON WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE WORKS.
+
+15. Interpretation of Sections 13 and 14: If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Software, unless a warranty or assumption of liability (in writing and duly signed) accompanies a copy of the Software in return for a fee.
+
+16. That we have no duty of reasonable care or lack of negligence, and we are not obligated to (and will not) provide technical support or bug fixes for the Software.
+
+17. That all rights not expressly granted to you in this license are reserved.
+
+18. Termination: You may not propagate or modify a covered work except as expressly provided under this License.  Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License
+
+
+
+----------- End of terms and conditions --------- 
+
